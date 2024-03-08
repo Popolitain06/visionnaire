@@ -9,7 +9,7 @@ function Layout({children} : {children: React.ReactNode}) {
     <main className='root'>
 
       <Sidebar/>
-      {<MobileNav/> }
+      <MobileNav/> 
 
         <div className='root-container'>
 
